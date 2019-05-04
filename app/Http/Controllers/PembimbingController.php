@@ -51,8 +51,6 @@ class PembimbingController extends Controller
     public function store(Request $request)
     {
         //
-     
-
         $pengguna = new user;
         $pengguna->name=$request['name'];
         $pengguna->email=$request['email'];
